@@ -1,0 +1,11 @@
+1.The crossorigin attribute in the script tag is used to indicate that the script file should be fetched with CORS (Cross-Origin Resource Sharing) enabled.
+
+CORS is a security feature implemented in web browsers to prevent scripts from one domain from accessing resources from another domain without permission. When a script is loaded from a different domain, the browser may block it by default for security reasons. The crossorigin attribute tells the browser that the script file is allowed to be fetched from a different domain and used on the current page.
+
+In the case of the script tag that you provided, the crossorigin attribute is present, which means that the React library will be fetched from a different domain than the domain of the web page that includes it. The crossorigin attribute enables the browser to fetch the script file from the specified domain and use it on the current page without blocking it for security reasons.
+
+
+
+2.
+
+
